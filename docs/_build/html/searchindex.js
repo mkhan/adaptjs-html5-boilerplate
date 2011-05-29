@@ -1,0 +1,1 @@
+Search.setIndex({objects:{},terms:{index:0,multi:0,welcom:0,screen:0,search:0,indic:0,content:0,boilerpl:0,adapt:0,tabl:0,modul:0,document:0,page:0,html5:0},objtypes:{},titles:["Welcome to Adaptive Multi-Screen HTML5 Boilerplate&#8217;s documentation!"],objnames:{},filenames:["index"]})

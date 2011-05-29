@@ -1,8 +1,56 @@
 <!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
+  
+  <!-- META TAGS -->
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width; initial-scale=1; minimum-scale=1; maximum-scale=1" />
+  <meta name="author" content="" />
+  <meta name="copyright" content="Licensed under MIT." />
+  <meta name="description" content="Adapt.js serves CSS based on screen width." />
+  
   <title>Adaptive HTML5 Boilerplate</title>
   
+  <!-- REFERENCES -->
+  <link rel="stylesheet" href="assets/css/master.css" />
+  <link rel="shortcut icon" href="assets/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  
+  <noscript>
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+  </noscript>
+  <script>
+    // Edit to suit your needs.
+    var ADAPT_CONFIG = {
+      path: 'assets/css/',
+
+      // false = Only run once, when page first loads.
+      // true = Change on window resize and page tilt.
+      dynamic: true,
+      
+      // Optional Javascript function callback
+      //callback: functionName,
+
+      // First range entry is the minimum.
+      // Last range entry is the maximum.
+      // Separate ranges by "to" keyword.
+      range: [
+        '0px    to 760px  = mobile.min.css',
+        '760px  to 980px  = 720.min.css',
+        '980px  to 1280px = 960.min.css',
+        '1280px to 1600px = 1200.min.css',
+        '1600px to 1920px = 1560.min.css',
+        '1920px           = fluid.min.css'
+        ]
+    };
+  </script>  
+    
 </head>
 <body id="ID " onload="">
   
