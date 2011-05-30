@@ -1,0 +1,60 @@
+[submodule "require-jquery"]
+        path = externals/foo
+        url = git://github.com/jrburke/require-jquery.git
+
+[submodule "requirejs"]
+        path = externals/foo
+        url = git://github.com/jrburke/requirejs.git
+
+[submodule "backbone"]
+        path = externals/foo
+        url = git://github.com/documentcloud/backbone.git
+
+[submodule "underscore"]
+        path = externals/foo
+        url = git://github.com/documentcloud/underscore.git
+
+[submodule "mustachejs"]
+        path = externals/foo
+        url = git://github.com/janl/mustache.js.git
+
+[submodule "uglifyjs"]
+        path = externals/foo
+        url = git://github.com/mishoo/cl-uglify-js.git
+
+[submodule "yuidoc"]
+        path = externals/foo
+        url = git://github.com/yui/yuidoc.git
+
+[submodule "jquery-ui"]
+        path = externals/foo
+        url = git://github.com/jquery/jquery-ui.git
+
+[submodule "jquery-mobile"]
+        path = externals/foo
+        url = git://github.com/jquery/jquery-mobile.git
+
+[submodule "jquery"]
+        path = externals/foo
+        url = git://github.com/jquery/jquery.git
+
+[submodule "qunit"]
+        path = externals/foo
+        url = git://github.com/jquery/qunit.git
+
+[submodule "jquery-throttle-debounce"]
+        path = externals/foo
+        url = git://github.com/cowboy/jquery-throttle-debounce.git
+
+[submodule "storejs"]
+        path = externals/foo
+        url = git://github.com/marcuswestin/store.js.git
+
+[submodule "jquery-mockjax"]
+        path = externals/foo
+        url = git://github.com/appendto/jquery-mockjax.git
+
+[submodule "yuicompressor"]
+        path = externals/foo
+        url = git://github.com/yui/yuicompressor.git
+
